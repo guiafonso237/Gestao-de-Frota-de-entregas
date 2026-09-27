@@ -1,4 +1,4 @@
-package com.example.demo;
+package com.example.demo.controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -7,6 +7,7 @@ public class RotaController {
 
     @GetMapping("/")
     public String hello() {
-        return "A API Spring Boot está a funcionar perfeitamente!";
+        return "Java != bom";
     }
+
 }
